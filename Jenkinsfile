@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Ejecutar Python') {
             steps {
-                bat 'python "C:\\Users\\juanv\\Desktop\\jenkins\\lab\\main.py"'
+                bat 'C:\\Python311\\python.exe main.py'
             }
         }
     }

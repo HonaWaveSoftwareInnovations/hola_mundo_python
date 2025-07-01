@@ -1,10 +1,9 @@
 pipeline {
     agent any
-
     stages {
         stage('Ejecutar Python') {
             steps {
-                bat 'C:\\Python311\\python.exe main.py'
+                bat '"C:\\Users\\juanv\\AppData\\Local\\Programs\\Python\\Python311\\python.exe" main.py'
             }
         }
     }
